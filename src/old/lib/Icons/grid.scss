@@ -1,0 +1,236 @@
+@import '../style/colors.scss';
+
+
+@font-face {
+    font-family: 'Andale Mono';
+    src: url('./Andale Mono/Andale Mono.ttf') format('truetype');
+  }
+
+$boxH : 126px;
+$boxW : 196px;
+$labelH: 46px;
+
+:local(.grid){
+  width: 900px;
+  min-width: 1052px;
+}
+
+:local(.row){
+  display: block;
+}
+
+:local(.box){
+  width: $boxW - 20px;
+  height: $boxH;
+  text-align: center;
+  margin: 30px 42px 0 66px;
+  float: left;
+};
+
+:local(.boxLeft){
+  width: $boxW - 20px;
+  height: $boxH;
+  text-align: center;
+  margin: 30px 66px 0 0;
+  float: left;
+};
+
+:local(.boxRight){
+  width: $boxW - 20px;
+  height: $boxH;
+  text-align: center;
+  margin: 30px 0 0 66px;
+  float: left;
+};
+
+:local(.label){
+  width: $boxW - 20px;
+  height: $labelH;
+  background: $colorButtonHover;
+  padding: 12px;
+  margin: 0;
+  font-family: Andale Mono;
+  font-size: 11pt;
+};
+
+
+
+:local(.ud-icon-surgery){
+  $iconH : 43px;
+  $iconW : 43px;
+  height: $iconH;
+  width: $iconW;
+  margin: 0px ($boxW - $iconW)/2 ($boxH - $labelH - $iconH - 2) ($boxW - $iconW)/2;
+  background-image: url('./ud-icon-surgery.svg');
+};
+
+:local(.ud-icon-message){
+  $iconW : 67px;
+  $iconH : 45px;
+  width: $iconW;
+  height: $iconH;
+  margin: 0px ($boxW - $iconW)/2 ($boxH - $labelH - $iconH - 2) ($boxW - $iconW)/2;
+  background-image: url('./ud-icon-message.svg');
+};
+
+:local(.ud-icon-calendar){
+  $iconW : 44px;
+  $iconH : 45px;
+  width: $iconW;
+  height: $iconH;
+  margin: 0px ($boxW - $iconW)/2 ($boxH - $labelH - $iconH - 2) ($boxW - $iconW)/2;
+  background-image: url('./ud-icon-calendar.svg');
+};
+
+:local(.ud-icon-trash){
+  $iconW : 39px;
+  $iconH : 45px;
+  width: $iconW;
+  height: $iconH;
+  margin: 0px ($boxW - $iconW)/2 ($boxH - $labelH - $iconH - 2) ($boxW - $iconW)/2;
+  background-image: url('./ud-icon-trash.svg');
+};
+
+:local(.ud-icon-health){
+  $iconW : 54px;
+  $iconH : 45px;
+  width: $iconW;
+  height: $iconH;
+  margin: 0px ($boxW - $iconW)/2 ($boxH - $labelH - $iconH - 2) ($boxW - $iconW)/2;
+  background-image: url('./ud-icon-health.svg');
+};
+
+:local(.ud-icon-provider){
+  $iconW : 53px;
+  $iconH : 45px;
+  width: $iconW;
+  height: $iconH;
+  margin: 0px ($boxW - $iconW)/2 ($boxH - $labelH - $iconH - 2) ($boxW - $iconW)/2;
+  background-image: url('./ud-icon-provider.svg');
+};
+
+:local(.ud-icon-bloodwork){
+  $iconW : 37px;
+  $iconH : 45px;
+  width: $iconW;
+  height: $iconH;
+  margin: 0px ($boxW - $iconW)/2 ($boxH - $labelH - $iconH - 2) ($boxW - $iconW)/2;
+  background-image: url('./ud-icon-bloodwork.svg');
+};
+
+:local(.ud-icon-edit){
+  $iconW : 43px;
+  $iconH : 43px;
+  width: $iconW;
+  height: $iconH;
+  margin: 0px ($boxW - $iconW)/2 ($boxH - $labelH - $iconH - 2) ($boxW - $iconW)/2;
+  background-image: url('./ud-icon-edit.svg');
+};
+
+:local(.ud-icon-alert){
+  $iconW : 40px;
+  $iconH : 45px;
+  width: $iconW;
+  height: $iconH;
+  margin: 0px ($boxW - $iconW)/2 ($boxH - $labelH - $iconH - 2) ($boxW - $iconW)/2;
+  background-image: url('./ud-icon-alert.svg');
+};
+
+:local(.ud-icon-warning){
+  $iconW : 45px;
+  $iconH : 45px;
+  width: $iconW;
+  height: $iconH;
+  margin: 0px ($boxW - $iconW)/2 ($boxH - $labelH - $iconH - 2) ($boxW - $iconW)/2;
+  background-image: url('./ud-icon-warning.svg');
+};
+
+:local(.ud-icon-dropdown){
+  $iconW : 51px;
+  $iconH : 30px;
+  width: $iconW;
+  height: $iconH;
+  margin: 0px ($boxW - $iconW)/2 ($boxH - $labelH - $iconH - 2) ($boxW - $iconW)/2;
+  background-image: url('./ud-icon-dropdown.svg');
+};
+
+:local(.ud-icon-search){
+  $iconW : 45px;
+  $iconH : 45px;
+  width: $iconW;
+  height: $iconH;
+  margin: 0px ($boxW - $iconW)/2 ($boxH - $labelH - $iconH - 2) ($boxW - $iconW)/2;
+  background-image: url('./ud-icon-search.svg');
+};
+
+:local(.ud-icon-expand){
+  $iconW : 39px;
+  $iconH : 39px;
+  width: $iconW;
+  height: $iconH;
+  margin: 0px ($boxW - $iconW)/2 ($boxH - $labelH - $iconH - 2) ($boxW - $iconW)/2;
+  background-image: url('./ud-icon-expand.svg');
+};
+
+:local(.ud-icon-collapse){
+  $iconW : 44px;
+  $iconH : 45px;
+  width: $iconW;
+  height: $iconH;
+  margin: 0px ($boxW - $iconW)/2 ($boxH - $labelH - $iconH - 2) ($boxW - $iconW)/2;
+  background-image: url('./ud-icon-collapse.svg');
+};
+
+:local(.ud-icon-check){
+  $iconW : 48px;
+  $iconH : 37px;
+  width: $iconW;
+  height: $iconH;
+  margin: 0px ($boxW - $iconW)/2 ($boxH - $labelH - $iconH - 2) ($boxW - $iconW)/2;
+  background-image: url('./ud-icon-check.svg');
+};
+
+:local(.ud-icon-exit){
+  $iconW : 38px;
+  $iconH : 38px;
+  width: $iconW;
+  height: $iconH;
+  margin: 0px ($boxW - $iconW)/2 ($boxH - $labelH - $iconH - 2) ($boxW - $iconW)/2;
+  background-image: url('./ud-icon-exit.svg');
+};
+
+:local(.ud-icon-left){
+  $iconW : 27px;
+  $iconH : 45px;
+  width: $iconW;
+  height: $iconH;
+  margin: 0px ($boxW - $iconW)/2 ($boxH - $labelH - $iconH - 2) ($boxW - $iconW)/2;
+  background-image: url('./ud-icon-left.svg');
+};
+
+:local(.ud-icon-right){
+  $iconW : 27px;
+  $iconH : 45px;
+  width: $iconW;
+  height: $iconH;
+  margin: 0px ($boxW - $iconW)/2 ($boxH - $labelH - $iconH - 2) ($boxW - $iconW)/2;
+  background-image: url('./ud-icon-right.svg');
+};
+
+:local(.ud-icon-refresh){
+  $iconW : 39px;
+  $iconH : 43px;
+  width: $iconW;
+  height: $iconH;
+  margin: 0px ($boxW - $iconW)/2 ($boxH - $labelH - $iconH - 2) ($boxW - $iconW)/2;
+  background-image: url('./ud-icon-refresh.svg');
+};
+
+:local(.ud-icon-transfer){
+  $iconW : 39px;
+  $iconH : 43px;
+  width: $iconW;
+  height: $iconH;
+  margin: 0px ($boxW - $iconW)/2 ($boxH - $labelH - $iconH - 2) ($boxW - $iconW)/2;
+  background-image: url('./ud-icon-transfer.svg');
+};

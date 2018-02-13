@@ -1,0 +1,42 @@
+:local(.browser_support) {
+  min-width: 1200px; }
+
+:local(.browser) {
+  height: 170px; }
+
+:local(.icon) {
+  height: 150px;
+  padding: 0 40px; }
+
+:local(.iconLeft) {
+  height: 150px;
+  padding-right: 40px; }
+
+:local(.left) {
+  border-right: 1px solid #dedede;
+  float: left;
+  padding-right: 30px;
+  margin: 0;
+  margin-bottom: 100px; }
+
+:local(.center) {
+  border-right: 1px solid #dedede;
+  float: left;
+  padding: 0 30px;
+  margin: 0;
+  margin-bottom: 100px; }
+
+:local(.right) {
+  float: left;
+  padding: 0 30px;
+  margin: 0;
+  margin-bottom: 100px; }
+
+:local(.label) {
+  text-align: center;
+  font-size: 20pt; }
+
+:local(.labelLeft) {
+  text-align: justify;
+  padding-left: 26px;
+  font-size: 20pt; }

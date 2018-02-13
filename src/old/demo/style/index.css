@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700");
+header {
+  size: 40pt; }
+
+:local(.styleguide) {
+  font-family: Quicksand; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 100% futura-pt, sans-serif;
+  color: #5c5c5c;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: white; }
+
+a {
+  color: #2d9d9c;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer; }
+  a.active {
+    color: #2d9d9c; }
+  a:hover {
+    color: #2d9d9c;
+    text-decoration: none; }
+
+h1 {
+  font-size: 36px;
+  font-weight: 900; }
+
+h2 {
+  font-size: 36px;
+  font-weight: normal; }
+
+h3 {
+  font-size: 24px;
+  font-weight: 400; }
+
+h4 {
+  font-size: 24px;
+  font-weight: 900; }
+
+h5 {
+  font-size: 18px;
+  font-weight: 400; }
+
+h6 {
+  font-size: 18px;
+  font-weight: 900; }
+
+p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #5c5c5c; }
+
+.p .strong {
+  font-size: 14px;
+  font-weight: 900; }
+
+#code {
+  color: #2a8586; }

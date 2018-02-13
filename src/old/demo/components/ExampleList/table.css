@@ -1,0 +1,40 @@
+:local(.item) {
+  text-align: center; }
+
+table {
+  padding: 0; }
+
+table tr {
+  border-top: 1px solid #cccccc;
+  background-color: white;
+  margin: 0;
+  padding: 0; }
+
+td:nth-child(1) {
+  color: #2a8586; }
+
+td:nth-child(2) {
+  color: #044456; }
+
+td:nth-child(3) {
+  color: #5c5c5c; }
+
+table tr th {
+  font-weight: 100;
+  color: #5c5c5c;
+  border: 1px 0px solid #cccccc;
+  text-align: left;
+  margin: 0;
+  padding: 6px 13px; }
+
+table tr td {
+  border: 1px 0px solid #cccccc;
+  text-align: left;
+  margin: 0;
+  padding: 6px 13px; }
+
+table tr th :first-child, table tr td :first-child {
+  margin-top: 0; }
+
+table tr th :last-child, table tr td :last-child {
+  margin-bottom: 0; }

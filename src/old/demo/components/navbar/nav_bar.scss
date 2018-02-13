@@ -1,0 +1,42 @@
+@import '../../style/colors.scss';
+@import '../../style/type.scss';
+$logo : url('../../style/logo-updox.png');
+
+:local(.navLink){
+  font-family : $font1;
+  font-style : 'normal';
+  color : $colorText;
+  width: inherit;
+  font-size: 30px;
+  margin-left: 33px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 25px;
+  padding-bottom: 2px;
+}
+
+:local(.navLink:hover){
+  color: $colorProductLight;
+  border-bottom: 8px solid $colorProductLight;
+}
+
+:local(.active){
+  color: $colorProductLight;
+  border-bottom: 8px solid $colorProductLight;
+}
+
+:local(.bannerBranding){
+  background: $logo no-repeat center center;
+  background-size: contain;
+  display: flex;
+  height: 31px;
+  width: 100px;
+  margin: 30px 110px 30px 80px;
+}
+
+:local(.nav){
+  height: 80px;
+  width: 100%;
+  background: #F4F4F4;
+  margin-bottom : 40px;
+}

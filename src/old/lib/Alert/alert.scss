@@ -1,0 +1,12 @@
+@import '../style/colors.scss';
+@import '../style/type.scss';
+
+:local(.alert){
+  font-family: 10% $font1;
+  font-size: 13pt;
+  background: $colorWarning;
+  border: 2px solid $colorWarningOutline;
+  color: $colorText;
+  padding: 10px 20px;
+  font-weight: lighter;
+}

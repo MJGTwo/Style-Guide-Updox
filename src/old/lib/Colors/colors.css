@@ -1,0 +1,64 @@
+:local(.swatch) {
+  height: 65px;
+  padding: 16px;
+  width: 1050px; }
+
+:local(.textbox) {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #5c5c5c;
+  font-family: Andale Mono;
+  padding: 5px 8px; }
+
+:local(.leftbox) {
+  float: left; }
+
+:local(.rightbox) {
+  float: right; }
+
+:local(.colorAccent) {
+  background-color: #044456; }
+
+:local(.colorAccentLight) {
+  background-color: #175d6f; }
+
+:local(.colorProduct) {
+  background-color: #2a8586; }
+
+:local(.colorProductLight) {
+  background-color: #2d9d9c; }
+
+:local(.colorButtonHover) {
+  background-color: #dedede; }
+
+:local(.colorButton) {
+  background-color: #efefef; }
+
+:local(.colorText) {
+  background-color: #5c5c5c; }
+
+:local(.colorTextLight) {
+  background-color: #ababab; }
+
+:local(.colorInputOutline) {
+  background-color: #abcbca; }
+
+:local(.colorInput) {
+  background-color: #f4fcfc; }
+
+:local(.colorBorder) {
+  background-color: #dedede; }
+
+:local(.colorBackground) {
+  background-color: white; }
+
+:local(.colorWrongOutline) {
+  background-color: #db1c56; }
+
+:local(.colorWrong) {
+  background-color: #ffe9f0; }
+
+:local(.colorWarningOutline) {
+  background-color: #f7eba4; }
+
+:local(.colorWarning) {
+  background-color: #fffce2; }

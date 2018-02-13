@@ -1,0 +1,34 @@
+:local(.checkbox) {
+  display: inline-table;
+  margin: 10px;
+  height: 45px; }
+
+:local(.checkboxBox) {
+  display: table-cell;
+  height: 45px;
+  width: 45px;
+  border: 2px solid #2d9d9c;
+  background: white;
+  border-radius: 10px;
+  float: left;
+  margin: 0 10px 0 0; }
+
+:local(.label) {
+  display: table-cell;
+  font-family: quicksand, sans-serif;
+  font-size: 15pt;
+  margin: auto 0;
+  float: left;
+  padding: 7% 0;
+  height: 45px; }
+
+:local(.checkboxBox.checked) {
+  background: url("./check.svg");
+  opacity: 1; }
+
+:local(.checkboxBox.disabled) {
+  border: 2px solid rgba(45, 157, 156, 0.5); }
+
+:local(.checkboxBox.disabled.checked) {
+  background: url("./checkD.svg") no-repeat;
+  opacity: 0.5; }

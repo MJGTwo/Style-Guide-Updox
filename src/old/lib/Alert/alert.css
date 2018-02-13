@@ -1,0 +1,8 @@
+:local(.alert) {
+  font-family: 10% futura-pt, sans-serif;
+  font-size: 13pt;
+  background: #fffce2;
+  border: 2px solid #f7eba4;
+  color: #5c5c5c;
+  padding: 10px 20px;
+  font-weight: lighter; }

@@ -1,0 +1,61 @@
+:local(.dropdown) {
+  font-family: quicksand, sans-serif;
+  display: block;
+  background: white;
+  border: 1px solid #efefef;
+  height: 65px;
+  color: #ababab;
+  width: 100%; }
+
+:local(.container) {
+  display: inline-block; }
+
+:local(.iconContainer) {
+  height: 40px;
+  width: 20px;
+  float: right;
+  margin-right: 25px;
+  margin-left: 25px;
+  margin-top: 20px; }
+
+:local(.ud-icon-dropdown) {
+  width: 25.5px;
+  height: 15px;
+  right: 0; }
+
+:local(.option) {
+  visibility: visible;
+  display: block;
+  background: white;
+  border: 1px solid #efefef;
+  border-bottom: 2px solid #2d9d9c;
+  height: 45px;
+  color: #5c5c5c;
+  width: 100%;
+  text-align: left;
+  padding: 5px 15px 0px 15px; }
+
+:local(.option:hover) {
+  background: #F4FCFC; }
+
+:local(.option:last-of-type) {
+  border: 1px solid #efefef; }
+
+:local(.optionText) {
+  font-family: quicksand, sans-serif;
+  font-weight: 500;
+  font-size: 18pt; }
+
+:local(.stack) {
+  float: left;
+  width: 100%;
+  font-weight: 400; }
+
+:local(.label) {
+  margin-left: 18px;
+  margin-top: 15px;
+  width: auto;
+  text-align: justify;
+  font-size: 16pt;
+  font-weight: 500;
+  float: left; }

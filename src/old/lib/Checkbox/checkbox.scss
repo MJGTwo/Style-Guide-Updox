@@ -1,0 +1,52 @@
+@import '../style/colors.scss';
+@import '../style/type.scss';
+
+$check : url('./check.svg');
+$checkDisabled : url('./checkD.svg');
+
+:local(.checkbox){
+  display : inline-table;
+  margin : 10px;
+  height: 45px;
+}
+
+:local(.checkboxBox) {
+  display: table-cell;
+  height : 45px;
+  width : 45px;
+  border: 2px solid $colorProductLight;
+  background: $colorBackground;
+  border-radius: 10px;
+  float: left;
+  margin: 0 10px 0 0;
+
+}
+
+
+
+:local(.label){
+  display: table-cell;
+  font-family: $font2;
+  font-size: 15pt;
+  margin: auto 0;
+  float: left;
+  padding: 7% 0;
+  height: 45px;
+}
+
+
+
+:local(.checkboxBox.checked) {
+  background: $check;
+  opacity: 1;
+}
+
+:local(.checkboxBox.disabled) {
+
+  border: 2px solid transparentize($colorProductLight,0.5);
+}
+
+:local(.checkboxBox.disabled.checked) {
+  background: $checkDisabled no-repeat;
+  opacity: 0.5;
+}

@@ -1,0 +1,72 @@
+:local(.btn) {
+  font: 80% quicksand, sans-serif;
+  height: 55px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 24px;
+  padding: 5px 30px;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in;
+  display: inline-block;
+  margin: 10px 10px; }
+
+:local(.primary) {
+  background-color: #2d9d9c; }
+
+:local(.primary:hover) {
+  background-color: #2a8586; }
+
+:local(.primary:disabled) {
+  background-color: rgba(45, 157, 156, 0.7);
+  box-shadow: 0 0 0 black;
+  cursor: not-allowed; }
+
+:local(.btn.primary:disabled:hover) {
+  background-color: rgba(45, 157, 156, 0.7); }
+
+/*Secondary*/
+:local(.secondary) {
+  background-color: #efefef;
+  text-transform: none;
+  color: #5c5c5c; }
+
+:local(.btn.secondary:hover) {
+  background-color: #dedede; }
+
+:local(.btn.secondary:disabled) {
+  background-color: rgba(239, 239, 239, 0.7);
+  box-shadow: 0 0 0 black;
+  cursor: not-allowed; }
+
+:local(.btn.secondary:disabled:hover) {
+  background-color: rgba(239, 239, 239, 0.7); }
+
+/*Link*/
+:local(.link) {
+  font-family: quicksand, sans-serif;
+  font-size: 16pt;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  font-weight: 900;
+  display: inline-block;
+  box-shadow: none;
+  color: #2d9d9c; }
+
+:local(.HGButton) {
+  background: white;
+  color: #5c5c5c;
+  border: 1px solid #efefef;
+  font-size: 16pt;
+  font-weight: 500;
+  padding: 10px 20px;
+  transition: all 0.2s ease-in; }
+
+:local(.HGButton:hover) {
+  background: #dedede; }

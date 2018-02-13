@@ -1,0 +1,41 @@
+:local(.container) {
+  border: 1px solid #efefef;
+  font-family: quicksand, sans-serif;
+  height: 65px;
+  max-width: 647px;
+  display: block;
+  width: auto; }
+
+:local(.submit) {
+  border: 1px solid #efefef;
+  background: #efefef;
+  color: #5c5c5c;
+  height: 100%;
+  width: 148px;
+  text-align: center;
+  padding: 15px 0;
+  font: 100% quicksand, sans-serif;
+  font-size: 36px;
+  font-weight: 900; }
+
+:local(.date) {
+  border: 1px solid #efefef;
+  float: left;
+  background: white;
+  color: #ababab;
+  height: 100%;
+  width: 172px;
+  font-size: 18px;
+  text-align: center;
+  padding: 8px 0;
+  font-weight: 500; }
+
+:local(.label) {
+  border: 1px solid #efefef;
+  float: left;
+  background: white;
+  color: #5c5c5c;
+  height: 100%;
+  width: 152px;
+  font-size: 18px;
+  text-align: center; }

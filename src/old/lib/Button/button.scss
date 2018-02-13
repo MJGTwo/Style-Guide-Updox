@@ -1,0 +1,88 @@
+@import '../style/colors.scss';
+@import '../style/type.scss';
+
+:local(.btn) {
+  font: 80% $font2;
+  height: 55px;
+  box-shadow: 0px 2px 4px fade_out(black, 0.6);
+  border-radius: 8px;
+  border: 0;
+  color: $colorBackground;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 24px;
+  padding: 5px 30px;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in;
+  display: inline-block;
+  margin: 10px 10px;
+}
+
+:local(.primary) {
+  background-color: $colorProductLight;
+
+}
+
+:local(.primary:hover) {
+
+  background-color: $colorProduct;
+}
+:local(.primary:disabled) {
+  background-color: fade_out($colorProductLight, 0.3);
+  box-shadow: 0 0 0 fade_out(black, 0);
+  cursor: not-allowed;
+}
+:local(.btn.primary:disabled:hover) {
+  background-color: fade_out($colorProductLight, 0.3);
+}
+
+/*Secondary*/
+
+:local(.secondary) {
+  background-color: $colorButton;
+  text-transform: none;
+  color: $colorText;
+}
+:local(.btn.secondary:hover) {
+  background-color: $colorButtonHover;
+}
+:local(.btn.secondary:disabled) {
+  background-color: fade_out($colorButton, 0.3);
+  box-shadow: 0 0 0 fade_out(black, 0);
+  cursor: not-allowed;
+}
+:local(.btn.secondary:disabled:hover) {
+  background-color: fade_out($colorButton, 0.3);
+}
+
+/*Link*/
+
+:local(.link) {
+  font-family: $font2;
+  font-size: 16pt;
+  border: 0;
+  color: $colorBackground;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  font-weight: $heavyWeight;
+
+  display: inline-block;
+
+  box-shadow: none;
+  color: $colorProductLight;
+}
+
+:local(.HGButton){
+  background: white;
+  color: $colorText;
+  border: 1px solid $colorButton;
+  font-size: 16pt;
+  font-weight: 500;
+  padding: 10px 20px;
+  transition: all 0.2s ease-in;
+}
+
+:local(.HGButton:hover){
+  background: $colorButtonHover;
+}

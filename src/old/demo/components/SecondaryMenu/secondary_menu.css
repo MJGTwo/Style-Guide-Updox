@@ -1,0 +1,16 @@
+:local(.secondaryLink) {
+  color: #5c5c5c;
+  font-family: futura-pt, sans-serif;
+  padding-top: 20px;
+  font-size: 14pt; }
+
+:local(.secondaryLink:hover) {
+  color: #2d9d9c; }
+
+:local(.active) {
+  color: #2d9d9c; }
+
+:local(.secondaryMenu) {
+  position: fixed;
+  padding-top: 10px;
+  margin-left: 60px; }

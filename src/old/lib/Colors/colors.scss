@@ -1,0 +1,96 @@
+@import '../style/colors.scss';
+
+:local(.swatch) {
+  height : 65px;
+  padding : 16px;
+  width: 1050px;
+}
+
+:local(.textbox){
+  background-color : fade_out(white,0.5);
+  color: $colorText;
+  font-family: Andale Mono;
+  padding : 5px 8px;
+}
+
+:local(.leftbox){
+  float : left;
+}
+
+:local(.rightbox){
+  float : right;
+}
+
+:local(.colorAccent) {
+  background-color: $colorAccent;
+
+}
+
+:local(.colorAccentLight) {
+  background-color: $colorAccentLight;
+
+}
+
+:local(.colorProduct) {
+  background-color: $colorProduct;
+
+}
+
+:local(.colorProductLight) {
+  background-color: $colorProductLight;
+
+}
+
+:local(.colorButtonHover) {
+  background-color: $colorButtonHover;
+
+}
+
+:local(.colorButton) {
+  background-color: $colorButton;
+
+}
+
+:local(.colorText) {
+  background-color: $colorText;
+
+}
+
+:local(.colorTextLight) {
+  background-color: $colorTextLight;
+
+}
+
+:local(.colorInputOutline) {
+  background-color: $colorInputOutline;
+
+}
+
+:local(.colorInput ) {
+  background-color: $colorInput;
+
+}
+
+:local(.colorBorder ) {
+  background-color: $colorBorder;
+
+}
+
+:local(.colorBackground) {
+  background-color: $colorBackground;
+
+}
+
+:local(.colorWrongOutline){
+  background-color: $colorWrongOutline;
+}
+:local(.colorWrong){
+  background-color: $colorWrong;
+}
+:local(.colorWarningOutline){
+  background-color: $colorWarningOutline;
+}
+
+:local(.colorWarning){
+  background-color : $colorWarning;
+}

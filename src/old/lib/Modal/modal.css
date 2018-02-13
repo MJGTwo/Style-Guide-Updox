@@ -1,0 +1,120 @@
+/* The Modal (background) */
+:local(.modal) {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */ }
+
+:local(.modal-exit-standard) {
+  right: 0;
+  position: absolute;
+  margin: 15px 15px 0 0; }
+
+:local(.modal-exit-option) {
+  right: 0;
+  position: absolute;
+  margin: 15px 15px 0 0; }
+
+:local(.icon) {
+  height: 20px;
+  width: 20px; }
+
+:local(.modal-box) {
+  background-color: #fefefe;
+  box-shadow: 1px 1px 2px rgba(92, 92, 92, 0.5);
+  margin: 15% auto;
+  /* 15% from the top and centered */
+  padding: 0px;
+  border: 1px solid #888;
+  border-radius: 10px;
+  font-family: quicksand, sans-serif;
+  position: relative; }
+
+:local(.small) {
+  height: 246px;
+  width: 433px;
+  /* Could be more or less, depending on screen size */ }
+
+:local(.medium) {
+  height: 307px;
+  width: 631px; }
+
+:local(.large) {
+  height: 393px;
+  width: 768px; }
+
+/* Modal Content/Box */
+:local(.modal-title-standard) {
+  font-weight: bolder;
+  padding-top: 40px;
+  font-size: 18pt;
+  text-align: center; }
+
+:local(.modal-title-option) {
+  font-weight: bolder;
+  padding-top: 40px;
+  font-size: 18pt;
+  text-align: center;
+  background: #2a8586;
+  border-radius: 9px 9px 0 0;
+  padding: 10px 0px;
+  color: white; }
+
+/* Modal Content/Box */
+:local(.modal-content-standard) {
+  padding-top: 20px;
+  font-size: 18pt;
+  text-align: center; }
+
+:local(.modal-content-option) {
+  padding-top: 20px;
+  font-size: 18pt;
+  text-align: center; }
+
+:local(.closeLabel) {
+  position: relative;
+  top: 25%; }
+
+:local(.modal-close-option) {
+  font-weight: bolder;
+  text-align: center;
+  height: 30%;
+  width: 100%;
+  font-size: 16pt;
+  width: inherit;
+  position: absolute;
+  margin: 0;
+  bottom: 20px;
+  border-radius: 0 0 9px 9px; }
+
+:local(.modal-close-standard) {
+  background: #2d9d9c;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  height: 21%;
+  width: 100%;
+  font-size: 16pt;
+  width: inherit;
+  position: absolute;
+  margin: 0;
+  bottom: 0;
+  border-radius: 0 0 9px 9px; }
+
+:local(.modal-close-standard:hover) {
+  background: #2a8586;
+  transition: all 0.2s ease-in; }
