@@ -5,12 +5,8 @@
 
 
 header {
-
+  font: 100% $font1;
   size: 40pt;
-}
-
-:local(.styleguide){
-  font-family: Quicksand;
 }
 
 body {
@@ -36,50 +32,50 @@ a {
 }
 
 h1 {
-
+  font: 100% $font2;
   font-size: $xLarge;
   font-weight: $heavyWeight;
 }
 
 h2 {
-
+  font: 100% $font2;
   font-size: $xLarge;
   font-weight: normal;
 }
 
 h3 {
-
+  font: 100% $font2;
   font-size: $large;
   font-weight: $normalWeight;
 }
 
 h4 {
-
+  font: 100% $font2;
   font-size: $large;
   font-weight: $heavyWeight;
 }
 
 h5 {
-
+  font: 100% $font2;
   font-size: $medium;
   font-weight: $normalWeight;
 }
 
 h6 {
-
+  font: 100% $font2;
   font-size: $medium;
   font-weight: $heavyWeight;
 }
 
 p {
-
+  font: 100% $font1;
   font-size: $small;
   font-weight: $normalWeight;
   color : $colorText;
 }
 
-.p .strong {
-
+p .strong {
+  font: 100% $font2;
   font-size: $small;
   font-weight: $heavyWeight;
 }

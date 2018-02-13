@@ -1,12 +1,11 @@
 import React, {Component} from 'react';
-import { Flex, Box } from 'reflexbox';
+
 
 import ExampleList from './ExampleList/example_list.js';
 import SecondaryMenu from './SecondaryMenu/secondary_menu.js';
 
 
 import {default as Examples} from '../../lib/examples.js'
-
 
 export default class PatientPortal extends Component{
   constructor(props){
@@ -35,8 +34,8 @@ export default class PatientPortal extends Component{
 
   render(){
     return(
-      <Flex>
-        <Box px={3} w={1/5}>
+      <div style = {{minWidth : '1200px'}}>
+        <div className = "col-sm-3" style = {{width : '290px'}}>
           <SecondaryMenu
             className = "secondary-menu"
             examples = {this.state.examples}
@@ -44,15 +43,15 @@ export default class PatientPortal extends Component{
             currentActive = {this.state.currentActive}
             />
 
-        </Box>
-        <Box px={3} w={4/5}>
+        </div>
+        <div className = "col-sm-9">
             <ExampleList
               examples = {this.state.examples}
               onExampleSelect = {selectedExample => this.selectExample(selectedExample)}
             />
 
-        </Box>
-     </Flex>
+        </div>
+     </div>
     )
   }
 }

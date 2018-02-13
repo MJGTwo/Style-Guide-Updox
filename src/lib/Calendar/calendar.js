@@ -92,7 +92,7 @@ export default class Calendar extends Component {
     return(
       <div className={cx(s.container)}>
         <div className={cx(s.label)}>
-          <h4 style = {{marginTop: '15px'}}>Filter Opt.</h4>
+          <h4>Filter Opt.</h4>
         </div>
         <div className={cx(s.date)}>
           <DatePicker
@@ -110,9 +110,8 @@ export default class Calendar extends Component {
         <button
           className={cx(s.submit)}
           onClick = {this.handleSubmit}
-          style = {{padding : 0}}
         >
-          <h4 >Submit</h4>
+          <h4>Submit</h4>
         </button>
 
       </div>

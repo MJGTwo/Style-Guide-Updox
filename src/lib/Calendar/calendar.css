@@ -2,7 +2,7 @@
   border: 1px solid #efefef;
   font-family: quicksand, sans-serif;
   height: 65px;
-  max-width: 647px;
+  max-width: 646px;
   display: block;
   width: auto; }
 
@@ -38,4 +38,5 @@
   height: 100%;
   width: 152px;
   font-size: 18px;
-  text-align: center; }
+  text-align: center;
+  padding: 15px 0; }

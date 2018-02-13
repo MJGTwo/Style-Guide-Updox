@@ -1,9 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700");
 header {
+  font: 100% futura-pt, sans-serif;
   size: 40pt; }
-
-:local(.styleguide) {
-  font-family: Quicksand; }
 
 body {
   margin: 0;
@@ -26,35 +24,43 @@ a {
     text-decoration: none; }
 
 h1 {
+  font: 100% quicksand, sans-serif;
   font-size: 36px;
   font-weight: 900; }
 
 h2 {
+  font: 100% quicksand, sans-serif;
   font-size: 36px;
   font-weight: normal; }
 
 h3 {
+  font: 100% quicksand, sans-serif;
   font-size: 24px;
   font-weight: 400; }
 
 h4 {
+  font: 100% quicksand, sans-serif;
   font-size: 24px;
   font-weight: 900; }
 
 h5 {
+  font: 100% quicksand, sans-serif;
   font-size: 18px;
   font-weight: 400; }
 
 h6 {
+  font: 100% quicksand, sans-serif;
   font-size: 18px;
   font-weight: 900; }
 
 p {
+  font: 100% futura-pt, sans-serif;
   font-size: 14px;
   font-weight: 400;
   color: #5c5c5c; }
 
-.p .strong {
+p .strong {
+  font: 100% quicksand, sans-serif;
   font-size: 14px;
   font-weight: 900; }
 
